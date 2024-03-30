@@ -1,0 +1,47 @@
+/*Banner Home*/
+
+.banner {
+    background-image: url(../img/monca.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    min-height: 500px;
+    width: 100%;
+  
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  
+    h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    p {
+      @include p;
+      text-shadow: #e5ff00;
+      font-size: 20px;
+      margin-bottom: 20px;
+
+    }
+  
+    .btn {
+      display: inline-block;
+      background-color: #e5ff00;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+  
+      &:hover {
+        background-color: rgb(109, 128, 0);
+      }
+    }
+  }

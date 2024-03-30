@@ -1,0 +1,30 @@
+/* Footer */
+
+.logo-footer {
+    height: 90px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    position: center;
+  }
+  
+  footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 3px solid black;
+    text-align: center;
+    background-color: orange;
+    letter-spacing: 8px;
+  
+    a {
+      text-decoration: none;
+      font-size: 30px;
+      color: black;
+      letter-spacing: 30px;
+      position: center;
+    }
+  }
+  
+  .p {
+    font-weight: bold;
+  }

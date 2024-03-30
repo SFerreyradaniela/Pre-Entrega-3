@@ -1,0 +1,27 @@
+/*jumbotron*/
+.jumbotron {
+    height: 600px;
+    background-image: url(../img/arroyo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    position: relative;
+  }
+
+
+
+/* Iframe */
+
+
+h2{
+  @include h2;
+  letter-spacing: 1px;
+}
+
+iframe {
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    height: 450px;
+  }

@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: orange;
+    font-size: 27px;
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    color: rgb(167, 167, 217) !important;
+    font-size: 27px;
+  
+    img {
+      height: 78px;
+    }
+  }
+  
+  h1 {
+    color: rgba(89, 89, 196, 0.911);
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 0 wheat;
+  }
+  

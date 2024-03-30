@@ -1,0 +1,180 @@
+/*Diseño Responsivo*/
+/*NAVEGADOR*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+  
+      .nav-link {
+        padding: 0.5rem;
+      }
+    }
+  }
+/*HOME BANNER*/
+@media screen and (max-width:768px){
+  .banner{
+        h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 16px;
+  }
+  & hover{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+}
+ 
+
+/*NOSOTROS*/
+  /*galeria de imagenes*/
+  
+  @media screen and (max-width: 800px) {
+    .container-img {
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      grid-template-rows: 200px;
+  
+      .box-img:nth-child(1) {
+        grid-column-start: span 1;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .container-img {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+  
+      .box-img img {
+        height: 200px;
+      }
+    }
+  }
+  
+
+/*SERVICIOS*/
+@media screen and (max-width:768px){
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 16px;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+  .servicios{
+    height: auto;
+  }
+  .card{
+    margin: 20px;
+  }
+  .card-wrap{
+    justify-content: center;
+  }
+} 
+  
+/*UBICACION*/
+@media screen and (max-width:768px){
+  .jumbotron{
+    padding: 3rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  ifrma{
+    height: 300px;
+  }
+}
+
+/*CONTACTO*/
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  .formulario {
+    label {
+      display: inline-block;
+      width: 30%;
+      margin-right: 2%;
+      text-align: right;
+    }
+  
+    input[type="text"], textarea {
+      width: 65%;
+      box-sizing: border-box;
+    }
+   
+    .btnFormulario {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  /*movil*/
+  @media (max-width: 576px) {
+    .banner .contenido {
+      h1 {
+        font-size: 24px;
+      }
+  
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .formulario {
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    input[type="text"], textarea {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .btnFormulario {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Escritorio */
+  @media (min-width: 992px) {
+    /*Contacto*/
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    .formulario {
+      label {
+        width: 20%;
+        margin-right: 3%;
+        text-align: right;
+      }
+  
+      input[type="text"], textarea {
+        width: 70%;
+        box-sizing: border-box;
+      }
+  
+      .btnFormulario {
+        width: auto;
+        margin-top: 0;
+      }
+    }
+  }

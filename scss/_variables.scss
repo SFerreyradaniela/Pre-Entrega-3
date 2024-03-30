@@ -1,0 +1,22 @@
+@mixin h1 {
+    color: rgba(89, 89, 196, 0.911);
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 0 wheat;
+    width: 100%;
+  }
+
+  @mixin h2{
+    font-size: 30px;
+  }
+
+  @mixin p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+
+  /*Variables Color*/
+  $color-beige: rgba(240, 211, 131, 0.796);
+  $color-verde: #c3d7088e;
