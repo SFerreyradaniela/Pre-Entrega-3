@@ -47,7 +47,7 @@ h1 {
   color: #fff;
   padding: 40px;
   text-align: center;
-  min-height: 500px;
+  /*min-height: 500px;*/
   width: 100%;
   height: 100%;
 }
@@ -98,10 +98,12 @@ h1 {
   margin-bottom: 0;
 }
 
-p {
-  text-align: center;
-  font-size: 20px;
+h2 {
+  font-size: 30px;
   font-weight: bold;
+  text-shadow: 2px 2px 2px whitesmoke;
+  line-height: 30px;
+  letter-spacing: 10px;
 }
 
 .btn {
@@ -131,8 +133,12 @@ img {
   max-width: 350px;
   background-color: rgba(240, 211, 131, 0.796);
   border-radius: 8px;
-  margin: 50px;
-  box-shadow: 0 0 12px #d7d7d7;
+  margin: 85px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 header-card img {
@@ -146,12 +152,13 @@ header-card img {
   margin-top: 1rem;
 }
 .categoria-card span {
-  background-color: rgba(195, 215, 8, 0.5568627451);
+  background-color: rgba(79, 182, 230, 0.5568627451);
   font-size: 20px;
   font-weight: bold;
   color: black;
   padding: 0.2rem 0.5rem;
   border-radius: 5px;
+  letter-spacing: 1, 5px;
 }
 
 .card footer {
@@ -172,6 +179,13 @@ header-card img {
   background-repeat: no-repeat;
   font-weight: bold;
   position: relative;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 1px 1px black;
+  line-height: 38px;
 }
 
 /* Iframe */
@@ -205,6 +219,7 @@ main h2 {
   margin-top: 30px;
   margin-bottom: 30px;
   color: black;
+  line-height: 38px;
 }
 
 /*galeria de imagenes*/
@@ -253,6 +268,13 @@ h2 {
   line-height: normal;
 }
 
+.contacto-texto {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(240, 116, 27);
+  text-shadow: 2px 2px 2px black;
+}
+
 form {
   background-image: url(../img/camino.jpeg);
   background-position: center;
@@ -268,9 +290,10 @@ label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 30px;
   color: black;
   text-shadow: 8px whitesmoke;
+  text-align: center;
 }
 
 input[type=text], textarea {
@@ -293,7 +316,12 @@ input[type=text], textarea {
   cursor: pointer;
   margin-top: 10px;
   display: block;
-  margin: 0 auto;
+  margin: 0 10px;
+}
+
+.formulario-botones {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Footer */

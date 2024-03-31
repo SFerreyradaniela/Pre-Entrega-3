@@ -10,10 +10,12 @@ h1 {
     margin-bottom: 0;
   }
   
-  p {
-    text-align: center;
-    font-size: 20px;
+  h2 {
+    @include h2;
     font-weight: bold;
+    text-shadow: 2px 2px 2px whitesmoke;
+    line-height: 30px;
+    letter-spacing: 10px;
   }
   
   .btn {
@@ -44,8 +46,12 @@ h1 {
     max-width: 350px;
     background-color: $color-beige;
     border-radius: 8px;
-    margin: 50px;
-    box-shadow: 0 0 12px #d7d7d7;
+    margin: 85px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 25px;
   }
   
   header-card img {
@@ -59,12 +65,13 @@ h1 {
     margin-top: 1rem;
   
     span {
-      background-color: $color-verde;
+      background-color: $color-celeste;
       font-size: 20px;
       font-weight: bold;
       color: black;
       padding: 0.2rem 0.5rem;
       border-radius: 5px;
+      letter-spacing:1,5px ;
     }
   }
   
