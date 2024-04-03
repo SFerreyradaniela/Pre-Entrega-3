@@ -64,8 +64,8 @@ h1 {
   color: black;
   font-size: 20px;
   text-align: center;
-  text-shadow: 1px 1px 2px #e8e8e5;
-  font-size: 30px;
+  text-shadow: 1px 2px 2px #e8e8e5;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 .banner .btn {
@@ -120,7 +120,9 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   font-weight: bold;
+  width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 /* tarjeta servicios */
@@ -161,6 +163,11 @@ header-card img {
   letter-spacing: 1, 5px;
 }
 
+.card p {
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
 .card footer {
   padding: 0 1 rem;
 }
@@ -179,10 +186,13 @@ header-card img {
   background-repeat: no-repeat;
   font-weight: bold;
   position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   text-shadow: 2px 1px 1px black;
   line-height: 38px;
@@ -192,6 +202,7 @@ header-card img {
 h2 {
   font-size: 30px;
   letter-spacing: 1px;
+  color: blue;
 }
 
 iframe {

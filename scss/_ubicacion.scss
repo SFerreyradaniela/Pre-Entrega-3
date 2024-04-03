@@ -7,10 +7,13 @@
     background-repeat: no-repeat;
     font-weight: bold;
     position: relative;
+    width: 100%;
+    margin:0;
+    padding:0;
   }
 
 .jumbotron p{
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   text-shadow: 2px 1px 1px black;
   line-height: 38px;
@@ -23,6 +26,7 @@
 h2{
   @include h2;
   letter-spacing: 1px;
+  color: blue;
 }
 
 iframe {

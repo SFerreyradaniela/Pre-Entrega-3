@@ -32,7 +32,9 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     font-weight: bold;
+    width: 100%;
     margin: 0;
+    padding:0;
   }
   
   /* tarjeta servicios */
@@ -75,6 +77,11 @@ h1 {
     }
   }
   
+  .card p{
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+
   .card footer {
     padding: 0 1 rem;
   }
